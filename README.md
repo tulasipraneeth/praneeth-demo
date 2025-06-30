@@ -73,10 +73,11 @@ it can be done with the help of init command
 INIT
 check ls-a if no git available then do the follow
 1)git init
-2)git init add <-origin link->
+2)git remote add <-origin link->
 3)git remote -v (to verify remote)
-4)git branc -M main(to rename branch)
-5)git push origin main
+4)git branch(to check branch)
+5)git branch -M main(to rename branch)
+6)git push origin main
 
 to just use git push all time
 1)git push -u origin main
