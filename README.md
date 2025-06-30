@@ -56,4 +56,8 @@ add--> adds new or chaned files in your working directory to the git staging are
 commit-->it is the record of change
   git commit -m "somemessage"
 
+3)push-->to add local repo content to git(remote) repo content
+   git push origin main
+
+
 
