@@ -71,7 +71,7 @@ it can be done with the help of init command
 
 
 INIT
-
+check ls-a if no git available then do the follow
 1)git init
 2)git init add <-origin link->
 3)git remote -v (to verify remote)
