@@ -8,6 +8,13 @@ on desktop
 main
 override
 
+STEPS:(starting from git clone to pushing to git)
+1)create repository
+2)clone using git clone "httpslink"
+3)add using git add .
+4)commit using git commit -m "somemessage"
+5)git push origin main
+
 controls:
 ---------
 git --version-->display the version
@@ -58,6 +65,24 @@ commit-->it is the record of change
 
 3)push-->to add local repo content to git(remote) repo content
    git push origin main
+
+REVERSE APPROACH:(starting from local repo to push into git repo)
+it can be done with the help of init command
+
+
+INIT
+
+1)git init
+2)git init add <-origin link->
+3)git remote -v (to verify remote)
+4)git branc -M main(to rename branch)
+5)git push origin main
+
+to just use git push all time
+1)git push -u origin main
+next time u can use only git push
+
+
 
 
 
