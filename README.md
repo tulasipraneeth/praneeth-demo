@@ -83,7 +83,40 @@ to just use git push all time
 1)git push -u origin main
 next time u can use only git push
 
+BRANCH COMMANDS:
+----------------
+ git branch  (to check branch)
+ git branch -M main (to rename branch)
+ git checkout <--branch name-> (to navigate)
+ git checkout -b <new branch name> (to create branch)
+ git branch -d <--branch name--> (to delete branch)
 
+Merging code 
 
+Way1
+git diff <-branch name-> (to compare commits,branches,files & more)
 
+git merge <--branchname--> (to merge 2 branches)
 
+Way2
+Create a PR(pull requests)
+
+pull request-->It tells you others about changes you've pushed to a bracnch in a repsoitory on Github
+
+pull command:
+git pull origin main
+used to fetch and download content from a remote repo and immediately update the local repo to match that content
+
+Undoing Changes
+Case 1: staged changes
+git reset <file name>
+git reset
+
+Case 2: committed changes (for one commit)
+git reset HEAD~1
+
+Case 3: committed changes (for many commits)
+git reset <commit hash>
+git reset --hard <commit hash>
+
+git log -->to view commits
